@@ -9,12 +9,12 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
+    font-size: 60%;
 }
 
 body {
     background-color: var(--primary-color);
-    font: bold 2rem 'Open Sans', sans-serif;
+    font: bold 2rem "Oxanium", cursiveGIT;
 }
 
 .todo {
@@ -40,12 +40,13 @@ body {
     border-radius: 2.5px;
 }
 
+
 .todo__list {
     display: flex;
     width: 100%;
     flex-direction: column;
     gap: 10px;
-    font-size: 15px;
+    font-size: 17px;
     background-color:#C4FEE7;
     border-radius: 2.5px;
     overflow:hidden;
